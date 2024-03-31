@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CalcularDias</title>
+</head>
+
+<body>
+
+
+
+  <section>
+    <div class="parte1">
+      <div class="hijo1">
+        <span>Day</span>
+        <input id="day" type="number" placeholder="DD">
+      </div>
+      <div class="hijo1">
+        <span>Month</span>
+        <input id="month" type="number" placeholder="MM">
+      </div>
+      <div class="hijo1">
+        <span>Year</span>
+        <input id="year" type="number" placeholder="YYYY">
+      </div>
+    </div>
+
+    <div class="parte2">
+      <div>
+        <hr>
+      </div>
+      <div class="svg" style="display: inline-block;" onclick="calculateDifference()">
+        <svg class="svg1" xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44">
+          <g fill="none" stroke="#FFF" stroke-width="2">
+            <path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44" />
+          </g>
+        </svg>
+      </div>
+    </div>
+
+
+    <div class="parte3">
+      <div class="years">
+        <span id="yearsDifference" class="x">- -</span> <span>years</span>
+      </div>
+      <div class="months">
+        <span id="monthsDifference" class="x">- -</span> <span>months</span>
+      </div>
+      <div class="days">
+        <span id="daysDifference" class="x">- -</span> <span>days</span>
+      </div>
+    </div>
+
+
+  </section>
+
+
+  <script src="calender.js"></script>
+</body>
+
+</html>
